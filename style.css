@@ -1,0 +1,194 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+
+
+/* Rainbow Font Colours */
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+	0%{color: #fff200;}	
+	10%{color: orange;}	
+	20%{color: red;}
+	30%{color: CadetBlue;}
+	40%{color: yellow;}
+	50%{color: coral;}
+	60%{color: green;}
+	70%{color: cyan;}
+	80%{color: DeepPink;}
+	90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Internet Explorer */
+@keyframes rainbow{
+	0%{color: #fff200;}	
+	10%{color: orange;}	
+	20%{color: red;}
+	30%{color: CadetBlue;}
+	40%{color: yellow;}
+	50%{color: coral;}
+	60%{color: green;}
+	70%{color: cyan;}
+	80%{color: DeepPink;}
+	90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+	0%{color: #fff200;}	
+	10%{color: orange;}	
+	20%{color: red;}
+	30%{color: CadetBlue;}
+	40%{color: yellow;}
+	50%{color: coral;}
+	60%{color: green;}
+	70%{color: cyan;}
+	80%{color: DeepPink;}
+	90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+
+/* Body */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+Body {
+	background-color: #4C1A4E;
+}
+
+.dolphin {
+  width: 115%;
+  height: 300px;
+  padding-right: 15%;
+}
+
+.rainbow {
+	font-family: Baloo Bhai;
+	font-size: 16px;
+  
+	/* Chrome, Safari, Opera */
+	-webkit-animation: rainbow 60s infinite; 
+
+	/* Internet Explorer */
+	-ms-animation: rainbow 60s infinite;
+
+	/* Standar Syntax */
+	animation: rainbow 60s infinite; 
+}
+
+.rainbowHeader {
+	font-family: Baloo Bhai;
+	font-size: 24px;
+  
+	/* Chrome, Safari, Opera */
+	-webkit-animation: rainbow 60s infinite; 
+
+	/* Internet Explorer */
+	-ms-animation: rainbow 60s infinite;
+
+	/* Standar Syntax */
+	animation: rainbow 60s infinite; 
+}
+
+.toptext {
+  padding-top: 5%;
+  
+}
+
+/* Navigation Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover:not(.active) {
+  background-color: #644B7B;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4C1A4E;
+  text-decoration: none;
+}
+
+.topbar {
+  background-color: #403562;
+}
+
+/* Flipping Logo */
+.dolphinicon {
+  width: 135px;
+  height: 65px;
+}
+
+.iconright {
+  float: right;
+}
+
+
+
+.flip-box {
+  width: 125px;
+  height: 60px;
+  perspective: 1000px; /* Remove this to remove the 3D effect */
+}
+
+.flip-box-inner {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  color: black;
+}
+
+.flip-box-back {
+  transform: rotateY(180deg);
+}
+
+.rainbowHidden {
+	font-family: Baloo Bhai;
+  font-size: 24px;
+  padding: 18px;
+  
+	/* Chrome, Safari, Opera */
+	-webkit-animation: rainbow 60s infinite; 
+
+	/* Internet Explorer */
+	-ms-animation: rainbow 60s infinite;
+
+	/* Standar Syntax */
+	animation: rainbow 60s infinite; 
+}
+
