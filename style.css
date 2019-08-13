@@ -132,8 +132,8 @@ li a.active {
 }
 
 .downloadbutton{
-	width: 2%;
-	height: 3%;
+	width: 150px;
+	height: 300px;
 	
 	font-family: Baloo Bhai;
 	font-size: 16px;
