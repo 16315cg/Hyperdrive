@@ -134,6 +134,18 @@ li a.active {
 .downloadbutton{
 	width: 20%;
 	height: 50%;
+	
+	font-family: Baloo Bhai;
+	font-size: 16px;
+  
+	/* Chrome, Safari, Opera */
+	-webkit-animation: rainbow 60s infinite; 
+
+	/* Internet Explorer */
+	-ms-animation: rainbow 60s infinite;
+
+	/* Standar Syntax */
+	animation: rainbow 60s infinite; 
 }
 
 /* Flipping Logo */
