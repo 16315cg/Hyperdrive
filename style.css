@@ -131,6 +131,11 @@ li a.active {
   background-color: #403562;
 }
 
+.downloadbutton{
+	width: 20%;
+	height: 50%;
+}
+
 /* Flipping Logo */
 .dolphinicon {
   width: 135px;
