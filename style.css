@@ -68,29 +68,13 @@ Body {
 .rainbow {
 	font-family: Baloo Bhai;
 	font-size: 16px;
-  
-	/* Chrome, Safari, Opera */
-	-webkit-animation: rainbow 60s infinite; 
-
-	/* Internet Explorer */
-	-ms-animation: rainbow 60s infinite;
-
-	/* Standar Syntax */
-	animation: rainbow 60s infinite; 
+	color: yellow;
 }
 
 .rainbowHeader {
 	font-family: Baloo Bhai;
 	font-size: 24px;
-  
-	/* Chrome, Safari, Opera */
-	-webkit-animation: rainbow 60s infinite; 
-
-	/* Internet Explorer */
-	-ms-animation: rainbow 60s infinite;
-
-	/* Standar Syntax */
-	animation: rainbow 60s infinite; 
+	color: yellow;
 }
 
 .toptext {
@@ -131,21 +115,12 @@ li a.active {
   background-color: #403562;
 }
 
-.downloadbutton{
-	width: 150px;
-	height: 300px;
-	
-	font-family: Baloo Bhai;
-	font-size: 16px;
-  
-	/* Chrome, Safari, Opera */
-	-webkit-animation: rainbow 60s infinite; 
-
-	/* Internet Explorer */
-	-ms-animation: rainbow 60s infinite;
-
-	/* Standar Syntax */
-	animation: rainbow 60s infinite; 
+button{
+	height: 500px;
+	width: 100%;
+	border-radius: 15px;
+	background-color: #403562;
+	border: 2px solid yellow;
 }
 
 /* Flipping Logo */
@@ -157,8 +132,6 @@ li a.active {
 .iconright {
   float: right;
 }
-
-
 
 .flip-box {
   width: 125px;
