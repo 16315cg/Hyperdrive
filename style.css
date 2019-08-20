@@ -60,9 +60,13 @@ Body {
 }
 
 .dolphin {
-  width: 115%;
-  height: 300px;
-  padding-right: 15%;
+	width: 400px;
+	height: 300px;
+}
+
+.newsvideo {
+	width: 600px; 
+	height: 337px;
 }
 
 .rainbow {
@@ -78,7 +82,7 @@ Body {
 }
 
 .toptext {
-  padding-top: 5%;
+	padding-top: 5%;
   
 }
 
