@@ -64,18 +64,22 @@ Body {
 	height: 300px;
 }
 
+.newsmain {
+	font-size: 45px;
+}
+
 .newsvideo {
 	width: 600px; 
 	height: 337px;
 }
 
-.rainbow {
+.main {
 	font-family: Baloo Bhai;
 	font-size: 16px;
 	color: yellow;
 }
 
-.rainbowHeader {
+.mainHeader {
 	font-family: Baloo Bhai;
 	font-size: 24px;
 	color: yellow;
