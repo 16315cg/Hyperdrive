@@ -48,7 +48,6 @@
 	100%{color: orange;}
 }
 
-
 /* Body */
 * {
 	margin: 0;
@@ -57,6 +56,18 @@
 
 Body {
 	background-color: #4C1A4E;
+}
+
+.main {
+	font-family: Baloo Bhai;
+	font-size: 16px;
+	color: yellow;
+}
+
+.mainheader {
+	font-family: Baloo Bhai;
+	font-size: 24px;
+	color: yellow;
 }
 
 .dolphin {
@@ -76,18 +87,6 @@ Body {
 .newsvideo {
 	width: 600px; 
 	height: 337px;
-}
-
-.main {
-	font-family: Baloo Bhai;
-	font-size: 16px;
-	color: yellow;
-}
-
-.mainheader {
-	font-family: Baloo Bhai;
-	font-size: 24px;
-	color: yellow;
 }
 
 .toptext {
