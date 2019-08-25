@@ -81,7 +81,7 @@ Body {
 }
 
 .newsmain {
-	font-size: 45px;
+	font-size: 60px;
 }
 
 .newsvideo {
@@ -130,7 +130,7 @@ li a.active {
 button{
 	height: 500px;
 	width: 100%;
-	border-radius: 15px;
+	border-radius: 75px;
 	background-color: #403562;
 	border: 2px solid yellow;
 }
