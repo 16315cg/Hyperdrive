@@ -70,16 +70,6 @@ Body {
 	color: yellow;
 }
 
-.dolphin {
-	width: 400px;
-	height: 300px;
-}
-
-.dolphinhome {
-	width: 750px;
-	height: 350px;
-}
-
 .newsmain {
 	font-size: 60px;
 }
@@ -127,7 +117,7 @@ li a.active {
   background-color: #403562;
 }
 
-button{
+button {
 	height: 500px;
 	width: 100%;
 	border-radius: 75px;
@@ -136,7 +126,7 @@ button{
 }
 
 /* Flipping Logo */
-.dolphinicon {
+.flippingicon {
   width: 135px;
   height: 65px;
 }
