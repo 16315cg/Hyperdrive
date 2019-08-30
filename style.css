@@ -70,6 +70,11 @@ Body {
 	color: yellow;
 }
 
+.homeimage {
+	width: 100%;
+	height: 100%;
+}
+
 .newsmain {
 	font-size: 60px;
 }
