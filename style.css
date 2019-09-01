@@ -70,11 +70,13 @@ Body {
 	color: yellow;
 }
 
+/* Home */
 .homeimage {
 	width: 100%;
 	height: 100%;
 }
 
+/* News */
 .newsmain {
 	font-size: 60px;
 }
@@ -86,42 +88,9 @@ Body {
 
 .toptext {
 	padding-top: 5%;
-  
 }
 
-/* Navigation Bar */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-}
-
-li a:hover:not(.active) {
-  background-color: #644B7B;
-  text-decoration: none;
-}
-
-li a.active {
-  background-color: #4C1A4E;
-  text-decoration: none;
-}
-
-.topbar {
-  background-color: #403562;
-}
-
+/* Download */
 button {
 	height: 500px;
 	width: 100%;
@@ -130,54 +99,87 @@ button {
 	border: 2px solid yellow;
 }
 
+/* Navigation Bar */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: #666;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+li a:hover:not(.active) {
+	background-color: #644B7B;
+	text-decoration: none;
+}
+
+li a.active {
+	background-color: #4C1A4E;
+	text-decoration: none;
+}
+
+.topbar {
+	background-color: #403562;
+}
+
 /* Flipping Logo */
 .flippingicon {
-  width: 135px;
-  height: 65px;
+	width: 135px;
+	height: 65px;
 }
 
 .iconright {
-  float: right;
+	float: right;
 }
 
 .flip-box {
-  width: 125px;
-  height: 60px;
-  perspective: 1000px; /* Remove this to remove the 3D effect */
+	width: 125px;
+	height: 60px;
+	perspective: 1000px; /* Remove this to remove the 3D effect */
 }
 
 .flip-box-inner {
-  background-color: transparent;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+	background-color: transparent;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
 }
 
 .flip-box:hover .flip-box-inner {
-  transform: rotateY(180deg);
+	transform: rotateY(180deg);
 }
 
 .flip-box-front, .flip-box-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
 }
 
 .flip-box-front {
-  color: black;
+	color: black;
 }
 
 .flip-box-back {
-  transform: rotateY(180deg);
+	transform: rotateY(180deg);
 }
 
 .rainbowhidden {
 	font-family: Baloo Bhai;
-  font-size: 24px;
-  padding: 18px;
+	font-size: 24px;
+	padding: 18px;
   
 	/* Chrome, Safari, Opera */
 	-webkit-animation: rainbow 60s infinite; 
@@ -189,3 +191,16 @@ button {
 	animation: rainbow 60s infinite; 
 }
 
+.rainbowdownload {
+	font-family: Baloo Bhai;
+	font-size: 16px;
+	
+	/* Chrome, Safari, Opera */
+	-webkit-animation: rainbow 60s infinite; 
+
+	/* Internet Explorer */
+	-ms-animation: rainbow 60s infinite;
+
+	/* Standar Syntax */
+	animation: rainbow 60s infinite; 
+}
