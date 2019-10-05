@@ -1,5 +1,6 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
 
 
 /* Rainbow Font Colours */
@@ -59,13 +60,13 @@ Body {
 }
 
 .main {
-	font-family: Baloo Bhai;
+	font-family: Audiowide;
 	font-size: 16px;
 	color: yellow;
 }
 
 .mainheader {
-	font-family: Baloo Bhai;
+	font-family: Audiowide;
 	font-size: 24px;
 	color: yellow;
 }
@@ -179,7 +180,7 @@ li a.active {
 }
 
 .rainbowhidden {
-	font-family: Baloo Bhai;
+	font-family: Audiowide;
 	font-size: 24px;
 	padding: 18px;
   
@@ -194,7 +195,7 @@ li a.active {
 }
 
 .rainbowdownload {
-	font-family: Baloo Bhai;
+	font-family: Audiowide;
 	font-size: 16px;
 	
 	/* Chrome, Safari, Opera */
