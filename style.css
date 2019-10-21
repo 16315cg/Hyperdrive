@@ -109,6 +109,12 @@ button {
 	border: 3px solid yellow;
 }
 
+/* About */
+.aboutmap {
+	height: 60%;
+	width: 60%;
+}
+
 /* Navigation Bar */
 ul {
 	list-style-type: none;
