@@ -102,8 +102,8 @@ Body {
 
 /* Download */
 button {
-	height: 500px;
 	width: 100%;
+	height: 500px;
 	border-radius: 75px;
 	background-color: #403562;
 	border: 3px solid yellow;
@@ -111,8 +111,8 @@ button {
 
 /* About */
 .aboutmap {
-	height: 60%;
-	width: 60%;
+	width: 403px;
+	height: 295px;
 }
 
 /* Navigation Bar */
