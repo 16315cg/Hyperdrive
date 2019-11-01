@@ -102,7 +102,7 @@ Body {
 
 /* Download */
 button {
-	width: 100%;
+	width: 500px;
 	height: 500px;
 	border-radius: 75px;
 	background: url(buttonimage.png);
