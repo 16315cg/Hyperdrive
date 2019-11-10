@@ -115,6 +115,15 @@ button {
 	height: 302px;
 }
 
+.maillinks {
+	float: right;
+	text-decoration: none;
+}
+
+.maillinks:hover:not(.active) {
+	text-decoration: none;
+}
+
 /* Navigation Bar */
 ul {
 	list-style-type: none;
